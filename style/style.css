@@ -324,8 +324,49 @@
 }
 
 /*============2. About section ===============*/
-
-
+.about {
+  height: 200vh;
+}
+.width__gerald {
+  height: 65vh;
+  width: 65vh;
+}
+.width__eric {
+  height: 65vh;
+  width: 65vh;
+}
+.width__demel {
+  height: 62vh;
+  width: 62vh;
+}
+.description {
+  position: relative;
+  bottom: 120px;
+}
+.container-fluid > .row > .col > h1 {
+  font-weight: bolder !important;
+}
+.container-fluid > .row > h1 {
+  font-weight: bolder !important;
+}
+@media screen and (max-width: 758px){
+  .container > .row > .col-lg-4 >.pos {
+    position: relative;
+    left: 60px;
+  }
+  .about > .container-fluid > .row > .col > .w-75 {
+    width: 1000px;
+    position: relative;
+    left: 170px;
+    bottom: 200px;
+    height: 550px;
+  }
+  .container-fluid > .row > .text-justify {
+    position: relative;
+    top: 200px;
+    right: 140px;
+  }
+}
 /*============3. Services section ===============*/
 
 

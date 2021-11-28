@@ -1,0 +1,8 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
+  <defs>
+    <clipPath id="shape">
+      <path id="blob" d="M476,291Q475,332,452.5,366.5Q430,401,392,415.5Q354,430,321,447Q288,464,250.5,463Q213,462,184,438.5Q155,415,108.5,411.5Q62,408,43.5,370Q25,332,29,291Q33,250,53.5,218Q74,186,73.5,143.5Q73,101,102,72.5Q131,44,171,35.5Q211,27,251,23Q291,19,322.5,44.5Q354,70,383,92Q412,114,437,143.5Q462,173,469.5,211.5Q477,250,476,291Z" fill="#d1d8e0"></path>
+    </clipPath>
+  </defs>
+  <image x="0" y="0" width="100%" height="100%" clip-path="url(#shape)" xlink:href="https://media.discordapp.net/attachments/909388281404334090/911955238334914590/Demel-01.jpg" preserveAspectRatio="none"></image>
+</svg>
