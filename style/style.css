@@ -349,14 +349,17 @@
 
 .div_network{
   background-image: url("../src/images/network.png");
+ 
 }
 
 .div_webAppDev{
   background-image: url("../src/images/web_app_dev.png");
+
 }
 
 .div_webDesign{
   background-image: url("../src/images/web_design.png");
+
 }
 
 .div_backgroundImage {
@@ -379,6 +382,9 @@
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
   font-size: 3.5rem;
+}
+.contact__img{
+  width: 800px;
 }
 
 .div_contactUsForm{
