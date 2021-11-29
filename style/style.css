@@ -75,6 +75,7 @@
      font-family: var(--body-font);
      font-size: var(--normal-font-size);
      color: var(--second-color);
+     overflow-x: hidden;
    }
    h1,h2,p{
      margin: 0;
@@ -327,9 +328,82 @@
 
 
 /*============3. Services section ===============*/
+.h2_services{
+  color: var(--fourth-color);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 3.5rem;
+}
 
+.div_typeServices{
+  background-color: black;
+  border-radius: 25px;
+  width: 70%;
+  height: 80%;
+  justify-content: center;
+}
+
+.h2_typeServices{
+  color: var(--first-color);
+}
+
+.div_network{
+  background-image: url("../src/images/network.png");
+}
+
+.div_webAppDev{
+  background-image: url("../src/images/web_app_dev.png");
+}
+
+.div_webDesign{
+  background-image: url("../src/images/web_design.png");
+}
+
+.div_backgroundImage {
+  background-size: cover;
+  background-position: center;
+}
+
+.btn_services{
+  background-color: var(--fourth-color);
+  height: 50px;
+  align-self: flex-end;
+}
 
 /*============4. Testimonies section ===============*/
 
 
 /*============5. Contact us section ===============*/
+.h2_contact{
+  color: var(--fourth-color);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 3.5rem;
+}
+
+.div_contactUsForm{
+  background-color: lightgray;
+}
+
+.btn_sendMessage {
+  color: white;
+  background-color: #004AAD;
+}
+
+/*============6. Hire us section ==================*/
+.btn_schedule {
+  color: white;
+  background-color: #004AAD;
+}
+
+.section_hireUsForm {
+  background-color: lightgray;
+}
+
+.h1_serviceText{
+  color: var(--first-color);
+}
+
+.btn-hire_hire-us{
+  background-color: var(--first-color);
+}
