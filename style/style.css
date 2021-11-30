@@ -459,12 +459,37 @@
 }
 
 /*============4. Testimonies section ===============*/
+@media screen and (max-width: 758px) {
+  #testimonies {
+    position: relative;
+    top: 2000px;
+  }
+  .container__testimonial > .contain {
+    position: relative;
+  top: -20px;
+  }
+  .col-md-4 .single-box .img-area{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border: 5px solid #fff;
+    top: 145px;
+    left: 190px;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+  
+}
+.container__testimonial > .contain {
+  position: relative;
+  bottom: 150px;
+}
 .testimonial__header {
   color: #004AAD;
   font-weight: 700;
   font-size: 45px;
 }
-.container{
+.container__testimonial{
   margin-top: 15%;
 }
 .img-text{
@@ -497,7 +522,7 @@
   height: 100px;
   border: 5px solid #fff;
   top: 15px;
-  left: 125px;
+  left: 157px;
   overflow: hidden;
   border-radius: 50%;
 }
@@ -527,12 +552,13 @@
 /*============5. Contact us section ===============*/
 #contact {
   position: relative;
-  top: 250px;
+  top: 100px;
+  right: 100px;
 }
 @media screen and (max-width: 758px){
   #contact {
     position: relative;
-    top: 2300px;
+    top: 200px;
   }
   .div_contactUsForm{
     background-color: lightgray;
