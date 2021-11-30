@@ -19,7 +19,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
     <!-- Box Icons -->
       <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
@@ -44,7 +44,7 @@
                     <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
                     <li class="nav__item"><a href="#testimonies" class="nav__link">Testimonies</a></li>
                     <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
-                    <li class=""><a href="#" class=""></a> <button class="btn-hire">Hire Us</button> </li>
+                    <li class="nav__item"><a href="#team" class="btn-hire ">Reach us</a></li>
                 </ul>
             </div>
 
@@ -61,7 +61,7 @@
 
 
             <div class="container-fluid vh-100">
-                <div class="row">
+                <div class="row px-5">
                     <div class="col-lg-6">
                       <h1 class="big-heading">We Make <br> Website Happen</h1>
                       <p class="desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit quasi dicta ratione asperiores impedit corrupti, similique tempora porro assumenda. Deleniti ipsum ex odit molestiae quam modi eveniet cum saepe aliquam!</p>
@@ -89,7 +89,7 @@
             
         </section >
 
-        <section id="about">
+        <section>
             <!-- This will include the items for about section -->
             <img class="img-pos" src="./src/images/waves.svg">
             <div class="about" id="about">
@@ -119,12 +119,12 @@
 
                     <div class="container marketing text-center">
 
-                        <div class="row">
+                        <div class="row" id="team">
                             <div class="col-lg-4">
                                 <img class="pos" src="./src/images/1.png" width="400" height="400">
                                 <h2 class="description">Gerald Diego</h2>
                                 <p class="description" style="font-style: italic;">Web Developer</p>
-                                <p class="description"><a class="btn btn-primary" href="#" target="_blank">Portfolio</a>
+                                <p class="description"><a class="btn button" href="#" target="_blank"><i class="bi bi-eye"></i>&nbsp;Visit Portfolio</a>
                                 </p>
                             </div>
 
@@ -133,7 +133,7 @@
 
                                 <h2 class="description">John Eric</h2>
                                 <p class="description" style="font-style: italic;">Web Developer & Network Designer</p>
-                                <p class="description"><a class="btn btn-primary" href="#" target="_blank">Portfolio</a>
+                                <p class="description"><a class="btn button" href="#" target="_blank"><i class="bi bi-eye"></i>&nbsp;Visit Portfolio</a>
                                 </p>
                             </div>
 
@@ -142,7 +142,7 @@
 
                                 <h2 class="description">Demel Novo</h2>
                                 <p class="description" style="font-style: italic;">Web Developer</p>
-                                <p class="description"><a class="btn btn-primary" href="#" target="_blank">Portfolio</a>
+                                <p class="description"><a class="btn button" href="#" target="_blank"><i class="bi bi-eye"></i>&nbsp;Visit Portfolio</a>
                                 </p>
                             </div>
                         </div>
@@ -163,29 +163,29 @@
                     <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-between">
                         <h3 class="h2_typeServices text-center">Network Design and Installation</h3>
                         <div class="container d-flex div_typeServices div_network div_backgroundImage p-3">
-                            <button class="btn btn-primary btn_services">Learn More</button>
+                            <a class="btn button btn_services" href="hire-us.html" target="_blank">Learn More</a>
                         </div>
                     </div>  
                     <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-between">
                         <h3 class="h2_typeServices text-center">Web App Development</h3>
                         <div class="container d-flex div_typeServices div_webAppDev div_backgroundImage p-3">
-                            <button class="btn btn-primary btn_services">Learn More</button>
+                            <a class="btn button btn_services" href="#" target="_blank">Learn More</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-between">
                         <h3 class="h2_typeServices text-center">Web Design</h3>
                         <div class="container d-flex div_typeServices div_webDesign div_backgroundImage p-3">
-                            <button class="btn btn-primary btn_services">Learn More</button>
+                            <a class="btn button btn_services" href="#" target="_blank">Learn More</a>
                         </div>
                     </div>
                 </div>
             </div>
 
-        </section><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        </section><br><br><br><br>
 
-        <section id="testimonies">
+        <section class="testimonies" id="testimonies">
              <!-- This will include the items for Testimonies section -->
-            <h1 class="text-center testimonial__header">Testimonial</h1>
+            <h1 class="text-center testimonial__header">Customers Loves<br> Our Services</h1>
              <div class="container px-4 container__testimonial">
   
                 <div class="row contain">
@@ -333,34 +333,34 @@
                                 <label for="fullName" class="form-label">Full Name:</label>
                             </div>
                             <div class="row">
-                                <input type="text" name="fullName" id="fullNameTXTBX" class="form-control" required>
+                                <input type="text" name="fullName" id="fullNameTXTBX" class="form-control" placeholder="John Smith" required>
                             </div>
                             <div class="row mt-3">
                                 <label for="email" class="form-label">Email Address:</label>
                             </div>
                             <div class="row">
-                                <input type="email" name="email" id="emailTXTBX" class="form-control" required>
+                                <input type="email" name="email" id="emailTXTBX" class="form-control" placeholder="john.smith@abc.com" required>
                             </div>
                             <div class="row mt-3">
                                 <label for="telephone" class="form-label">Telephone Number:</label>
                             </div>
                             <div class="row">
-                                <input type="text" name="telepone" id="telephoneTXTBX" class="form-control" required>
+                                <input type="text" name="telepone" id="telephoneTXTBX" class="form-control" placeholder="+63 1212372542" required>
                             </div>
                             <div class="row mt-3">
                                 <label for="subject" class="form-label">Subject:</label>
                             </div>
                             <div class="row">
-                                <input type="text" name="subject" id="subjectTXTBX" class="form-control" required>
+                                <input type="text" name="subject" id="subjectTXTBX" class="form-control" placeholder="I want to..." required>
                             </div>
                             <div class="row mt-3">
                                 <label for="message" class="form-label">Message:</label>
                             </div>
                             <div class="row">
-                                <textarea name="message" id="messageTXTBX" cols="30" rows="3" class="form-control" required></textarea>
+                                <textarea name="message" id="messageTXTBX" cols="30" rows="3" class="form-control" placeholder="My opinion..." required></textarea>
                             </div>
                             <div class="row mt-3 d-flex justify-content-center">
-                                <button class="btn btn-primary w-50 btn_sendMessage">Send Message</button>
+                                <button class="btn btn_sendMessage button">Send Message</button>
                             </div>
                         </form>
                     </div>
