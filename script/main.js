@@ -56,6 +56,37 @@ sr.reveal('.work__img',{interval: 200});
 /*SCROLL CONTACT*/
 sr.reveal('.contact__input',{interval: 200}); 
 
+// Contact Us
+document.getElementById('fullNameTXTBX').addEventListener('keyup', notAllowedCharactersIfEmpty);
+document.getElementById('emailTXTBX').addEventListener('keyup', notAllowedCharacters);
+document.getElementById('subjectTXTBX').addEventListener('keyup', notAllowedCharactersIfEmpty);
+document.getElementById('messageTXTBX').addEventListener('keyup', notAllowedCharactersIfEmpty);
+document.getElementById('sendMessageBTN').addEventListener('click', validate);
 
+// Keys Not Allowed
+function notAllowedCharacters(event) {
+    switch (event.keyCode) {
+        case 32: // Space Key
+            document.getElementById(event.target.id).value = document.getElementById(event.target.id).value.substring(0, document.getElementById(event.target.id).value.length -1);
+            console.log("Not Allowed")
+            break;
+    
+        default:
+            document.getElementById(event.target.id).classList.remove("requiredInput");
+            break;
+    }
+}
 
+// If The TextBox is Empty
+function notAllowedCharactersIfEmpty(event) {
+    document.getElementById(event.target.id).classList.remove("requiredInput");
+    if (document.getElementById(event.target.id).value == " ") notAllowedCharacters(event);
+}
 
+// set pattern
+function validate(){
+    document.getElementById('telephoneTXTBX').setAttribute('oninvalid', this.setCustomValidity('Invalid Phone Numer Format (9#########)'))
+    let phoneFormat = /9([0-9]{9})/;
+    let emailFormat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+    let valid = true;
+}

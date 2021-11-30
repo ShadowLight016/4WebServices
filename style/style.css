@@ -333,10 +333,6 @@
 /* Put your CSS here  */
 
 /*============1. home section ===============*/
-#home{
-  
-}
-
 .btn__learnmore{
   background-color: var(--fourth-color);
   margin-bottom: 1em;
@@ -370,7 +366,6 @@
   position: relative;
   bottom: 120px;
   text-transform: uppercase;
-  
 }
 .container-fluid > .row > .col > h1 {
   font-weight: bolder !important;
@@ -660,6 +655,15 @@
   height: 50px;
 }
 
+/* #telephoneTXTBX{
+  width: calc(100% - 45px);
+}
+
+#telephoneTXTBX::-webkit-inner-spin-button, 
+#telephoneTXTBX::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+} */
 /*============6. Hire us section ==================*/
 @media screen and (max-width: 758px){
   .contain {
