@@ -370,7 +370,7 @@
   position: relative;
   bottom: 120px;
   text-transform: uppercase;
-  font-family: ;
+  
 }
 .container-fluid > .row > .col > h1 {
   font-weight: bolder !important;
@@ -584,7 +584,11 @@
 .single-box{
   position: relative;
   margin-bottom: 30px;
+  
 
+}
+.single-box:hover{
+  box-shadow: 0 1px 4px rgba(146,161,176,.15);
 }
 .img-area{
   position: absolute;
@@ -693,4 +697,10 @@
 
 .btn-hire_hire-us{
   background-color: var(--first-color);
+}
+.wave{
+  width: 100%;
+}
+.ratings i{
+  color: gold;
 }
