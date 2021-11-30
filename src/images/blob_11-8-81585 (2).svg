@@ -1,0 +1,8 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
+  <defs>
+    <clipPath id="shape">
+      <path id="blob" d="M452.5,308.5Q432,367,383,400.5Q334,434,274.5,463.5Q215,493,156.5,459Q98,425,70,368Q42,311,28.5,246Q15,181,60,132Q105,83,161.5,55.5Q218,28,280,38Q342,48,395.5,85Q449,122,461,186Q473,250,452.5,308.5Z" fill="#d1d8e0"></path>
+    </clipPath>
+  </defs>
+  <image x="0" y="0" width="100%" height="100%" clip-path="url(#shape)" xlink:href="https://avatars.githubusercontent.com/u/74230834?v=4" preserveAspectRatio="none"></image>
+</svg>

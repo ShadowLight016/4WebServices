@@ -174,8 +174,9 @@
    }
    .nav__logo{
     
-     width: 50px;
-     height: 50px;
+     width: 48px;
+     height: 48px;
+
    }
    .nav__toggle{
      color: var(--second-color);
@@ -186,7 +187,7 @@
 
 
    /*Active menu*/
-   .active::after{
+   .active__nav::after{
      position: absolute;
      content: "";
      width: 100%;
@@ -260,7 +261,7 @@
        color: var(--second-color);
      }
      .container-fluid{
-      padding: 100px;
+      padding: 5%;
       margin-top: 1em;
     }
    
@@ -301,7 +302,7 @@
   margin-right: auto;
   width: 400px;
   margin-top: 4em;
-
+  padding-top: 5%;
 
 }
    
@@ -325,14 +326,98 @@
 }
 
 /*============2. About section ===============*/
+.about {
+  height: 200vh;
+}
+.width__gerald {
+  height: 65vh;
+  width: 65vh;
+}
+.width__eric {
+  height: 65vh;
+  width: 65vh;
+}
+.width__demel {
+  height: 62vh;
+  width: 62vh;
+}
+.description {
+  position: relative;
+  bottom: 120px;
+}
+.container-fluid > .row > .col > h1 {
+  font-weight: bolder !important;
+  color: var(--fourth-color) ;
+
+}
+.container-fluid > .row > h1 {
+  font-weight: bolder !important;
+  color: var(--fourth-color);
+}
+@media screen and (max-width: 758px){
+  .container > .row > .col-lg-4 >.pos {
+    position: relative;
+    left: 60px;
+  }
+  .about > .container-fluid > .row > .col > .w-75 {
+    width: 1000px;
+    position: relative;
+    left: 170px;
+    bottom: 200px;
+    height: 550px;
+  }
+  .container-fluid > .row > .text-justify {
+    position: relative;
+    top: 200px;
+    right: 140px;
+  }
+  .img-pos {
+    position: relative;
+    top: 100px;
+  }
+  .head1 {
+    position: relative;
+    top: 150px;
+    padding-top: 2%;
+  }
+  .about > .container-fluid > .row > .col > .svg-pos{
+    position: relative;
+    top: 10px;
+  }
+  .desc {
+    position: relative;
+    top: 200px;
+  }
+  .header {
+    position: relative;
+    top: 100px;
+  }
+}
 
 
 /*============3. Services section ===============*/
+#services {
+  position: relative;
+  top: 250px;
+}
+@media screen and (max-width: 758px){
+  #services {
+    position: relative;
+    top: 1200px;
+  }
+  .d-flex {
+    height: 500px;
+  }
+  .h2_services {
+    position: relative;
+    top: 15px;
+  }
+}
 .h2_services{
   color: var(--fourth-color);
   font-family: 'Poppins', sans-serif;
-  font-weight: 700;
-  font-size: 3.5rem;
+  font-weight: bolder;
+  font-size: 47px;
 }
 
 .div_typeServices{
@@ -374,14 +459,91 @@
 }
 
 /*============4. Testimonies section ===============*/
+.testimonial__header {
+  color: #004AAD;
+  font-weight: 700;
+  font-size: 45px;
+}
+.container{
+  margin-top: 15%;
+}
+.img-text{
+  width: 100%;
+  height: 300px;
+  display: block;
+  text-align:center;
+  padding: 40% 5%;
+  background: #262626;
+  color: #fff;
+  border-radius: 15px;
+}
+.img-text h2{
+  font-size: 25px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.img-text p{
+  font-size: 14px ;
+}
+.single-box{
+  position: relative;
+  margin-bottom: 30px;
+
+}
+.img-area{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border: 5px solid #fff;
+  top: 15px;
+  left: 125px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.img-area img{
+  width: 100%;
+  width:100%;
+  text-align:center;
+}
+.carousel-indicators{
+  left: 0;
+  top: auto;
+  bottom:-70px;
+
+}
+.carousel-indicators li{
+  background: #000;
+  border-radius:50%;
+  width: 15px;
+  height: 15px;
+}
+
+.carousel-indicators .active{
+  background: #fff;
+}
 
 
 /*============5. Contact us section ===============*/
+#contact {
+  position: relative;
+  top: 250px;
+}
+@media screen and (max-width: 758px){
+  #contact {
+    position: relative;
+    top: 2300px;
+  }
+  .div_contactUsForm{
+    background-color: lightgray;
+    height: 600px;
+  }
+}
 .h2_contact{
   color: var(--fourth-color);
   font-family: 'Poppins', sans-serif;
-  font-weight: 700;
-  font-size: 3.5rem;
+  font-weight: bolder;
+  font-size: 47px;
 }
 .contact__img{
   width: 800px;
@@ -394,9 +556,31 @@
 .btn_sendMessage {
   color: white;
   background-color: #004AAD;
+  height: 40px;
 }
 
 /*============6. Hire us section ==================*/
+@media screen and (max-width: 758px){
+  .contain {
+    position: relative;
+    top: 500px;
+  }
+  .btn_schedule {
+    color: white;
+    background-color: #004AAD;
+    height: 45px;
+  }
+  .section_hireUsForm {
+    background-color: lightgray;
+    height: 700px;
+    position: relative;
+    top: 500px;
+  }
+  .globe-pos {
+    position: relative;
+    bottom: 800px;
+  }
+}
 .btn_schedule {
   color: white;
   background-color: #004AAD;
@@ -406,7 +590,7 @@
   background-color: lightgray;
 }
 
-.h1_serviceText{
+.container-fluid > .row >.h1_serviceText{
   color: var(--first-color);
 }
 
