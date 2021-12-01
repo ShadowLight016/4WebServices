@@ -709,6 +709,7 @@
   color: gold;
 }
 /* ===== FOOTER =====*/
+
 .footer{
   background-color: var(--fourth-color);
   color: #fff;
@@ -716,7 +717,16 @@
   font-weight: var(--font-semi);
   padding: 2rem 0;
   bottom: 0;
+  position: relative;
 }
+
+@media screen and (max-width: 758px) {
+  .footer{
+    bottom: 0;
+    position: relative;
+  }
+}
+
 .footer__title{
   font-size: 2rem;
   margin-bottom: var(--mb-4);
